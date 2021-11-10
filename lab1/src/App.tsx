@@ -10,8 +10,8 @@ function App() {
             <h2 style={{textAlign: 'center'}}>Antd Table Example</h2>
             <Table1 />
 
-            <h2 style={{textAlign: 'center'}}>Antd Table User Management</h2>
-            <Table2 />
+            {/*<h2 style={{textAlign: 'center'}}>Antd Table User Management</h2>*/}
+            {/*<Table2 />*/}
         </div>
     </div>
   );
