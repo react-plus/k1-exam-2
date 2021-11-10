@@ -69,6 +69,12 @@ export const Table1 = () => {
                 </div>
              </>
             )}
+            <div style={{
+                display: 'flex',
+            }}>
+                <p style={{marginRight: 30}}>Page: 1, 2, 3,... 10</p>
+                <p>Item Perpage: 20</p>
+            </div>
             <Modal show={show} onClose={handleClose}/>
         </div>
     )
