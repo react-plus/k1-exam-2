@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Table1} from "./antd/table1";
+import {Table2} from "./antd/table2";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className={"antd-table"}>
+            <h2 style={{textAlign: 'center'}}>Antd Table Example</h2>
+            <Table1 />
+
+            <h2 style={{textAlign: 'center'}}>Antd Table User Management</h2>
+            <Table2 />
+        </div>
     </div>
   );
 }
