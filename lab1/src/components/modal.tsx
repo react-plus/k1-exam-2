@@ -1,5 +1,5 @@
 import React from "react";
-import {Button} from "antd";
+import {Button, Input} from "antd";
 
 type ModalProps = {
     show: boolean
@@ -26,17 +26,17 @@ export const Modal = ({show, onClose}: ModalProps) => {
                 background: 'white',
             }}>
                 <p>Name:</p>
-                <input type="text" style={{width: '100%'}}/>
+                <Input placeholder={'Name'}/>
                 <p>Age:</p>
-                <input type="text" style={{width: '100%'}}/>
+                <Input placeholder={'Age'}/>
                 <p>Address:</p>
-                <input type="text" style={{width: '100%'}}/>
+                <Input placeholder={'Address'}/>
                 <p>Email:</p>
-                <input type="text" style={{width: '100%'}}/>
-                <p>Phone:</p>
-                <input type="text" style={{width: '100%'}}/>
+                <Input placeholder={'Email'}/>
+                <p>Phone Number:</p>
+                <Input placeholder={'Phone number'}/>
                 <p>Role:</p>
-                <input type="text" style={{width: '100%'}}/>
+                <Input placeholder={'Role'}/>
                 <div style={{
                     display: 'flex',
                     marginTop: 20
