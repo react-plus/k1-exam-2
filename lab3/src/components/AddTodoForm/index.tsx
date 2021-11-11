@@ -1,15 +1,12 @@
 import React from "react";
 
-export const AddProductForm = () => {
+export const AddTodoForm = () => {
     return <div>
         <div className="field-input-group">
-            <input placeholder="Image" type="text" className="ant-input" />
+            <input placeholder="Name" type="text" className="ant-input" />
         </div>
         <div className="field-input-group">
-            <input placeholder="Product name" type="text" className="ant-input" />
-        </div>
-        <div className="field-input-group">
-            <input placeholder="Product description" type="text" className="ant-input" />
+            <input placeholder="Description" type="text" className="ant-input" />
         </div>
         <div className="modal-new-user-footer">
             <button className="ant-btn ant-btn-primary">

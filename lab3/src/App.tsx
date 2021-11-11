@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { Modal } from 'antd';
 
-import {ListProduct} from './components/ListProduct'
-import {AddProductForm} from './components/AddProductForm'
+import {ListTodo} from './components/ListTodo'
+import {AddTodoForm} from './components/AddTodoForm'
 
 import 'antd/dist/antd.css'
 import './App.css';
@@ -25,12 +25,12 @@ function App() {
             <h2>List product</h2>
             <div className="header-add-user">
                 <button className="ant-btn ant-btn-primary" onClick={handleOpenModal}>
-                    Add New Product
+                    Add New Todo
                 </button>
             </div>
-            <ListProduct />
+            <ListTodo />
             <Modal title="Add Product" visible={isModalVisible} footer={null} onCancel={handleCancel}>
-                <AddProductForm />
+                <AddTodoForm />
             </Modal>
         </div>
     );
