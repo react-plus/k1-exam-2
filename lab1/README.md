@@ -7,6 +7,10 @@ API Endpoint
 ```text
 https://5d36d86c86300e0014b647c7.mockapi.io/users
 ```
+list method GET
+add method POST
+delete method DELETE
+update method PUT
 
 ## Tiêu chí đánh giá:
 - Có thể thêm sửa xoá hiển thị user sử dụng API
