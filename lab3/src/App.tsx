@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { Modal } from 'antd';
 
-import {ListUser} from './components/ListUser'
-import {AddUserForm} from './components/AddUserForm'
+import {ListProduct} from './components/ListProduct'
+import {AddProductForm} from './components/AddProductForm'
 
 import 'antd/dist/antd.css'
 import './App.css';
@@ -22,15 +22,15 @@ function App() {
 
     return (
         <div className="App">
-            <h2>List user</h2>
+            <h2>List product</h2>
             <div className="header-add-user">
                 <button className="ant-btn ant-btn-primary" onClick={handleOpenModal}>
-                    Add New User
+                    Add New Product
                 </button>
             </div>
-            <ListUser />
-            <Modal title="Basic Modal" visible={isModalVisible} footer={null} onCancel={handleCancel}>
-                <AddUserForm />
+            <ListProduct />
+            <Modal title="Add Product" visible={isModalVisible} footer={null} onCancel={handleCancel}>
+                <AddProductForm />
             </Modal>
         </div>
     );
