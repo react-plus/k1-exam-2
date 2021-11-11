@@ -1,20 +1,17 @@
 import React from 'react';
+
+import {ListUser} from './components/ListUser'
+
+import 'antd/dist/antd.css'
 import './App.css';
-import {Table1} from "./antd/table1";
-import {Table2} from "./antd/table2";
 
 function App() {
-  return (
-    <div className="App">
-        <div className={"antd-table"}>
-            <h2 style={{textAlign: 'center'}}>Antd Table Example</h2>
-            <Table1 />
-
-            {/*<h2 style={{textAlign: 'center'}}>Antd Table User Management</h2>*/}
-            {/*<Table2 />*/}
+    return (
+        <div className="App">
+            <h2>List user</h2>
+            <ListUser />
         </div>
-    </div>
-  );
+    );
 }
 
 export default App;
