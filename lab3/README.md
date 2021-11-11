@@ -3,7 +3,11 @@
 - Thời gian làm bài: 12h - 18h
 - Tạo repo github `reactplus-exam-lab3` copy example code và làm trên đó
 
-API information
+API Endpoint
+```text
+https://5d36d86c86300e0014b647c7.mockapi.io/todos
+```
+
 
 ## Tiêu chí đánh giá:
 - Có thể thêm sửa xoá hiển thị user sử dụng API

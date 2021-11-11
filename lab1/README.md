@@ -5,7 +5,7 @@
 
 API Endpoint 
 ```text
-https://5d36d86c86300e0014b647c7.mockapi.io/todos
+https://5d36d86c86300e0014b647c7.mockapi.io/users
 ```
 
 ## Tiêu chí đánh giá:
