@@ -22,14 +22,14 @@ function App() {
 
     return (
         <div className="App">
-            <h2>List product</h2>
+            <h2>List todo</h2>
             <div className="header-add-user">
                 <button className="ant-btn ant-btn-primary" onClick={handleOpenModal}>
                     Add New Todo
                 </button>
             </div>
             <ListTodo />
-            <Modal title="Add Product" visible={isModalVisible} footer={null} onCancel={handleCancel}>
+            <Modal title="Add Todo" visible={isModalVisible} footer={null} onCancel={handleCancel}>
                 <AddTodoForm />
             </Modal>
         </div>
