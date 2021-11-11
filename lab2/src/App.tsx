@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import { Modal } from 'antd';
+
+import {ListProduct} from './components/ListProduct'
+import {AddProductForm} from './components/AddProductForm'
+
+import 'antd/dist/antd.css'
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
+
+    const handleOpenModal = () => {
+        setIsModalVisible(true)
+    }
+
+    const handleCancel = () => {
+        setIsModalVisible(false)
+    }
+
+    return (
+        <div className="App">
+            <h2>List product</h2>
+            <div className="header-add-user">
+                <button className="ant-btn ant-btn-primary" onClick={handleOpenModal}>
+                    Add New Product
+                </button>
+            </div>
+            <ListProduct />
+            <Modal title="Add Product" visible={isModalVisible} footer={null} onCancel={handleCancel}>
+                <AddProductForm />
+            </Modal>
+        </div>
+    );
 }
 
 export default App;
