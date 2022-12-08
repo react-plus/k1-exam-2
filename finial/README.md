@@ -7,6 +7,11 @@
 - Sử dụng Create React App typescript (https://create-react-app.dev/docs/adding-typescript/)
 - Tạo repo github `reactplus-final` copy example code và làm trên đó
 
+## Tech stack 
+- axios
+- react
+- react-router-dom
+
 ### API Endpoint cho Registration
 ```text
 https://639164380bf398c73aa0a71d.mockapi.io/users
@@ -31,6 +36,7 @@ complated: boolean
 - hiển thị danh sách list task sử dung method GET
 
 ## Tiêu chí đánh giá:
+- UI giống figma
 - CÓ thể di chuyển qua lại giữa các màn hình 
 - Đăng ký được user
 - Login vào được màn Dashboard
