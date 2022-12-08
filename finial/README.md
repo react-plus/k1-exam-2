@@ -5,7 +5,7 @@
 - Màn Login được chỉ cần nhập email và password bấm login là di chuyển sang màn dashboard k cần tích hợp API
 - Thời gian làm bài: 10h
 - Sử dụng Create React App typescript (https://create-react-app.dev/docs/adding-typescript/)
-- Tạo repo github `reactplus-final` copy example code và làm trên đó
+- Tạo repo github `reactplus-final` làm trên đó
 
 ## Tech stack 
 - axios
