@@ -12,6 +12,9 @@
 - react
 - react-router-dom
 
+## File design 
+https://www.figma.com/file/aGsJQ2uPAIpaFz0zIzbHap/To-Do-List-UI-Design-(Community)?node-id=2%3A186&t=ht8lcWoLnNh8JvaM-0
+
 ### API Endpoint cho Registration
 ```text
 https://639164380bf398c73aa0a71d.mockapi.io/users
