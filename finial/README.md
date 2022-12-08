@@ -12,7 +12,7 @@
 - react
 - react-router-dom
 
-## File design 
+## File design lưu ý cần login để inspect dc style 
 https://www.figma.com/file/aGsJQ2uPAIpaFz0zIzbHap/To-Do-List-UI-Design-(Community)?node-id=2%3A137&t=zn166ncVyckK4yds-3
 
 ### API Endpoint cho Registration
