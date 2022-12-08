@@ -13,7 +13,7 @@
 - react-router-dom
 
 ## File design 
-https://www.figma.com/file/aGsJQ2uPAIpaFz0zIzbHap/To-Do-List-UI-Design-(Community)?node-id=2%3A186&t=ht8lcWoLnNh8JvaM-0
+https://www.figma.com/file/aGsJQ2uPAIpaFz0zIzbHap/To-Do-List-UI-Design-(Community)?node-id=2%3A137&t=zn166ncVyckK4yds-3
 
 ### API Endpoint cho Registration
 ```text
